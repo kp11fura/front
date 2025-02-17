@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../Downloads/images"
+		},
+		{
+			"name": "front",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "front"
+	}
+}
