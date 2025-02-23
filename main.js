@@ -33,9 +33,9 @@ function getTasks(){
             li.innerHTML = `
                 <span class="text-lg">${taskName}</span>
                     <div class="flex gap-2">
-                         ${isCompleted ? '' : `<img class="complete-btn cursor-pointer duration-300 hover:scale-125" date-id="${taskId}" src="./images/check.svg" alt="Complete">`}
-                         <img class=" cursor-pointer duration-300 hover:scale-125" src="./images/Edit.svg" alt="Edit" >
-                         <img class="del-btn cursor-pointer duration-300 hover:scale-125" src="./images/Trash.svg" alt="Delete" data-id="${taskId}" >
+                         ${isCompleted ? '' : `<img class="complete-btn cursor-pointer duration-300 hover:scale-125" date-id="${taskId}" src="./images/check.jpg" alt="Complete">`}
+                         <img class=" cursor-pointer duration-300 hover:scale-125" src="./images/Edit.jpg" alt="Edit" >
+                         <img class="del-btn cursor-pointer duration-300 hover:scale-125" src="./images/Trash.jpg" alt="Delete" data-id="${taskId}" >
                     </div>`;
             container.appendChild(li);
         });
